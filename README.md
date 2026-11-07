@@ -41,3 +41,9 @@ React / TypeScript / Vite。API、認証、バックエンドはありません�
 ## 拠点切り替え
 
 左上の「神戸 / デモ環境」から大阪へ切り替えられます。初回・再読込み時は神戸です。大阪は深色テーマです。各一覧、件数、予定、関連資料は選択した拠点に絞り込みます。自動化デモは神戸にE4・F1、大阪にO1、両方にG1を表示します。保存データは共通のまま保持し、表示だけを切り替えます。
+
+## GitHub Pages
+
+公開URL: https://way-equity.github.io/cbs-database-demo/
+
+mainへのpush時にGitHub Actionsでテスト・ビルド後、distをPagesへ公開します。リポジトリのSettings → Pages → SourceはGitHub Actionsです。公開先でもデータは各利用者のブラウザ内に保存されます。
